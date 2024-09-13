@@ -1,0 +1,59 @@
+
+body{
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+}
+#navbar{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+a:hover{
+background-color: rgb(92, 124, 195);
+color: rgb(173, 81, 89);
+}
+#accueil{
+    background-color: rgb(200, 200, 229);
+}
+#propos{
+    background-color: rgb(121, 124, 201);
+}
+.travail{
+    background-color: #656594;
+    margin-left: 5%;
+
+}
+
+#cv{
+    background: $primaryColor;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    display: inline;
+}
+div img{
+    margin-left: 35%;
+   
+}
+#contact{
+    background-color: rgb(112, 112, 227);
+}
+footer{
+    color: blueviolet;
+}
+h3{
+    font-weight: bold;
+    background-color:rgb(233, 228, 228);
+    color: #442424;
+    padding: .5em;
+}
+p{ height: 150px;
+    width: 90%;
+    
+}
+footer{
+    background-color: burlywood;
+}
